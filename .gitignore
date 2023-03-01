@@ -1,0 +1,9 @@
+
+.vscode
+
+# NodeJS Code 
+/server/node_modules
+/server/.env
+/server/uploads
+/server/package-lock.json
+/server/logs
