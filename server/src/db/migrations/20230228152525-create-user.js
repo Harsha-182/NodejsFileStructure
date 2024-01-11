@@ -19,15 +19,23 @@ module.exports = {
       },
       first_name: {
         type: Sequelize.STRING,
+        allowNull: false,
       },
       last_name: {
         type: Sequelize.STRING,
+        allowNull: false,
       },
-      gender: {
+      phone: {
         type: Sequelize.STRING,
+        allowNull: false,
       },
-      location: {
-        type: Sequelize.TEXT,
+      country: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      is_checked: {
+        type: Sequelize.BOOLEAN,
+        allowNull: false,
       },
       created_at: {
         type: Sequelize.DATE,

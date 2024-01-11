@@ -10,8 +10,9 @@ module.exports = {
         email: 'test1@celestialsys.com',
         first_name: 'Test',
         last_name: 'user1',
-        gender: 'male',
-        location: 'Banglore',
+        phone: '9747262827',
+        country: 'India',
+        is_checked: true,
         created_at: new Date(),
         updated_at: new Date(),
       }]);

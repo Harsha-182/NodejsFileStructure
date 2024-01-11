@@ -44,6 +44,13 @@ const HTTP_SUCCESS_MESSAGES = {
     BILL_AMOUNT_REQUIRED: 'Bill amount required',
     NUMBER_OF_BILLS_REQUIRED: 'Number of Bills required',
     USER_NAME_REQUIRED: "Username required",
+
+    PASSWORD_MAX_LENGTH: 'Password must be at least 10 characters long',
+    PASSWORD_LENGTH: 'Password must contain at least one number',
+    PASSWORD_WITH_UPPERCASE: 'Password must contain at least one uppercase letter',
+    PASSWORD_WITH_LOWERCASE: 'Password must contain at least one lowercase letter',
+    PASSWORD_WITH_SPECIAL_CHAR: 'Password must contain at least one special character'
+
   };
   
   module.exports = {

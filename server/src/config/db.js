@@ -2,12 +2,12 @@ require('dotenv').config();
 
 module.exports = {
   development: {
-    username: 'postgres',
+    username: 'harshak',
     password: 'Password@12',
-    database: 'Nodejs',
+    database: 'Himalaya-Local',
     host: 'localhost',
     dialect: 'postgres',
-    port: 5433,
+    port: 5432,
     seederStorage: 'sequelize',
     seederStorageTableName: 'sequelize_seed_data',
     logging: false,

@@ -20,6 +20,7 @@
     "jsonwebtoken": "^9.0.0",
     "moment": "^2.29.4",
     "node-file-logger": "^0.9.5",
+    "nodemailer": "^6.9.8",
     "nodemon": "^2.0.20",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1",

@@ -26,15 +26,23 @@ const {
       },
       first_name: {
         type: DataTypes.STRING,
+        allowNull: false,
       },
       last_name: {
         type: DataTypes.STRING,
+        allowNull: false,
       },
-      gender: {
+      phone: {
         type: DataTypes.STRING,
+        allowNull: false,
       },
-      location: {
-        type: DataTypes.TEXT,
+      country: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      is_checked: {
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
       },
       updated_by_id: {
         type: DataTypes.STRING,

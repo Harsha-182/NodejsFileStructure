@@ -4,6 +4,7 @@
 const httpError = require('http-errors');
 const authUtils = require('./auth');
 const logUtils = require('./logger');
+const mailUtils = require('./mail')
 
 module.exports = {
   authUtils,
@@ -16,5 +17,6 @@ module.exports = {
     expose: process.env.NODE_ENV === 'development',
   }),
   logUtils,
+  mailUtils
 };
 

@@ -36,11 +36,11 @@ const strategy = new JwtStrategy(opts, (async (req,payload,done) => {
        return done(new Error('User inactivated!'),null)
     }
     
-     const currentUserRole = user.Role ? user.Role.name: '';
+    //  const currentUserRole = user.Role ? user.Role.name: '';
 
-    if(existingToken.role !== currentUserRole){
-       return done(new Error('User role has been changed. Please login again'),null)
-    }
+    // if(existingToken.role !== currentUserRole){
+    //    return done(new Error('User role has been changed. Please login again'),null)
+    // }
     
 
     return done(null, user);
