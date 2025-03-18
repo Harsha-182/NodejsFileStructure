@@ -1,5 +1,3 @@
-# Island Health
-
 ### Required softwares to run backend server
 * Install NodeJs , please download from url: `https://nodejs.org/download/release/v12.14.0/`(Download .msi file). Please use this version of node js only.
 * Install Postgresql server and pgadmin:
